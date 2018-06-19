@@ -7,3 +7,15 @@
 // 6. strings, arrays, objects
 
 // Take it Easy
+const rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+console.log(rainbow[4]);
+
+const me = {
+food: "sushi",
+hobby: "russian roulette",
+town: "Megaton",
+datatype: "Boolean"
+}
+console.log(me.hobby);
+
+// Crazy Object!
