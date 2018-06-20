@@ -132,9 +132,15 @@ for (i = 0; i <= bondFilms.length; i++) {
   if (bondFilms[i] % 3 === 0) {
     oddBonds.push(bondFilms[i].year);
   }
-}
-console.log(oddBonds);
+};
 
+//
+totalGrowth = {
+  sum = 0
+  for (i = 0; i <= bondFilms.length; i++)
+sum = sum += bondFilms[i].gross
+return sum;
+};
 
 
 
