@@ -126,15 +126,14 @@ const bondFilms = [
 const bondTitles = [bondFilms[0].title, bondFilms[1].title, bondFilms[2].title, bondFilms[3].title, bondFilms[4].title, bondFilms[5].title, bondFilms[6].title, bondFilms[7].title, bondFilms[8].title, bondFilms[9].title, bondFilms[10].title, bondFilms[11].title, bondFilms[12].title, bondFilms[13].title, bondFilms[14].title, bondFilms[15].title, bondFilms[16].title, bondFilms[17].title, bondFilms[18].title, bondFilms[19].title, bondFilms[20].title, bondFilms[21].title, bondFilms[22].title];
 console.log(bondTitles);
 
-// const bondTitles = {
-//   for (i = 0; i <= 24; i++) {
-//     console.log(bondFilms[0].title)
-//   }
-// };
-// 24
 //
-
-
+const oddBonds = ['']
+for (i = 0; i <= bondFilms.length; i++) {
+  if (bondFilms[i] % 3 === 0) {
+    oddBonds.push(bondFilms[i].year);
+  }
+}
+console.log(oddBonds);
 
 
 
